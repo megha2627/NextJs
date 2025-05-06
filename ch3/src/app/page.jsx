@@ -1,4 +1,6 @@
 import LearnCss from "@/components/LearnCss";
+import LearnCssModule from "@/components/LearnCssModule";
+import LearnImage from "@/components/LearnImage";
 import LearnServerComponent from "@/components/LearnServerComponent";
 import LearnuseRouter from "@/components/LearnuseRouter";
 import LinkPage from "@/components/LinkPage";
@@ -13,6 +15,8 @@ export default function Home() {
         <LinkPage />
         <LearnuseRouter/>
         <LearnCss/>
+        <LearnCssModule />
+        <LearnImage/>
      </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
@@ -36,6 +40,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
+       
           <Image
             aria-hidden
             src="/window.svg"
@@ -45,6 +50,7 @@ export default function Home() {
           />
           Examples
         </a>
+        
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"

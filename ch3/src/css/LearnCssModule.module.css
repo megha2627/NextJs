@@ -1,0 +1,9 @@
+.text{
+    font-size:large;
+    font-weight: bold;
+    color: var(--foreground);
+    background-color: var(--background);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
