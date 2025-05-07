@@ -1,10 +1,12 @@
 import LearnCss from "@/components/LearnCss";
 import LearnCssModule from "@/components/LearnCssModule";
+import LearnDataFetching from "@/components/LearnDataFetching";
 import LearnImage from "@/components/LearnImage";
 import LearnServerComponent from "@/components/LearnServerComponent";
 import LearnuseRouter from "@/components/LearnuseRouter";
 import LinkPage from "@/components/LinkPage";
 import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
         <LearnCss/>
         <LearnCssModule />
         <LearnImage/>
+        <LearnDataFetching/>
+      
      </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a

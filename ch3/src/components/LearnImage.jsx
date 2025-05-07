@@ -3,7 +3,7 @@ import Image from "next/image"
 const LearnImage = () => {
   return (
     <>
-      <Image src={Image1}  />
+      <Image src={Image1}  alt='' />
     </>
   )
 }
