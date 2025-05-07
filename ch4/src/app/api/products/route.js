@@ -12,3 +12,14 @@ export async function GET(request) {
     console.log("cookiee",cookies1);
     return NextResponse.json({ "msg from next js api route:": "Hello next js api route"});
 }
+/*export async function POST(request) {
+  const body = await request.json(); // parse incoming JSON
+  console.log("POST request data:", body);
+  return new Response("Data received", { status: 200 });
+}*/
+
+export async function POST(request) {
+  const body = await request.formData(); // parse incoming JSON
+  console.log("POST request data:", body);
+  return new Response("Data received", { status: 200 });
+}
